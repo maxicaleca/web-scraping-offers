@@ -39,3 +39,6 @@ def export_results(method, results, promo_type):
                 count += 1
             csv_writer.writerow(promo.values())
         data_file.close()
+
+    if os.path.exists(file_name):
+        print("File %s has been saved" % file_name)
