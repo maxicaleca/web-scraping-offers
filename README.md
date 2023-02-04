@@ -13,4 +13,5 @@ pip3 install -r requirements.txt
 **How to start?**
 
 python3 main.py -e json
+
 python3 main.py -e csv
